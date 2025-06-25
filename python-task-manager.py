@@ -27,7 +27,17 @@ def search_for_task(title):
             right = mid+1
         else :
             left = mid + 1 
-            
+
+# emplementing using classes
+
+class queue :
+    def __init__ (self , prioriy, value):
+        self.value=value
+        self.prioriy=prioriy
+
+    def __str__(self):
+        return "prior: " + str(self.prioriy) + "value : " + str(self.value)
+
 
 
 
